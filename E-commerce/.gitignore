@@ -1,0 +1,30 @@
+# --- Environnement & Secrets ---
+.env
+*.pem
+*.key
+
+# --- Python & Django Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+db.sqlite3
+
+# --- Flutter & Dart Mobile ---
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.log
+*.crash
+
+# Android & iOS spécifiques
+/android/app/src/debug/
+/android/app/src/profile/
+/android/key.properties
+/ios/Pods/
+/ios/.symlinks/
